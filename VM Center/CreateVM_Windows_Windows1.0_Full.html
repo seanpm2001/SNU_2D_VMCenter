@@ -1,0 +1,178 @@
+<!-- start of script !--> 
+<HTML>
+ <head>
+  <meta charset="UTF-16">
+</head> 
+<HEAD>
+<TITLE>SNU 3 Update schedules - SNU 2D viewer</TITLE>
+</HEAD>
+<BODY BGCOLOR="00ffff">
+<HR>
+<H3>This site is under construction</H3>
+<H1>===============================================================================================================================================================================================</H1>
+<H1>Creating a Windows 1.0 virtual machine - Full version</H1>
+<!-- divider !-->
+<H3>⚙ RAM</H3>
+<p>(!) Minimum amount of RAM you can set is 300 Kilobytes, however the machine won't run with less than 360 Kilobytes of RAM</p>
+<form action="/action_page.php">
+  RAM (in kilobytes_:
+  <input type="number" name="quantity"
+   min="300" max="4096" step="1" value="360">
+  <input type="submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<p>Quick reference:</p>
+<p>1 kilobyte | 1000 bytes     | 1024 bytes     |</p>
+<p>1 megabyte | 1000 kilobytes | 1024 kilobytes |</p>
+<p>1 Gigabyte | 1000 megabytes | 1024 megabytes |</p>
+<p>1 Terabyte | 1000 gigabytes | 1024 gigabytes |</p>
+<p>1 Petabyte | 1000 terabytes | 1024 terabytes |</p>
+<p>1 Exabyte  | 1000 petabytes | 1024 petabytes |</p>
+<p>and so on...</p>
+<!-- divider !-->
+<H3>🌍 Language</H3>
+<p>Select a language to run Windows 1.0 in</p>
+<form action="/action_page.php">
+  <input type="radio" name="lang" value="English">English<br>
+  <input type="radio" name="lang" value="German">German<br>
+  <input type="radio" name="lang" value="other">Japanese<br>  
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Build of Operating System</H3>
+<p>Select a specific Windows 1.0 build.</p>
+<form action="/action_page.php">
+  <input type="radio" name="lang" value="Latest">Latest<br>
+  <input type="submit" value="Submit">
+</form>
+<p>WARNING! You can't change this setting later</p>
+<!-- divider !-->
+<H3>⚙ Processor</H3>
+<p>Choose the processor you want to use:</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="Intel 8086">Intel 8086<br>
+  <input type="radio" name="proc" value="Intel 8088">Intel 8088<br>
+  <input type="radio" name="proc" value="Custom">Custom<br>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Processor speed</H3>
+<p>Choose a processor read/write speed</p>
+<p>(!) Minimum speed is 1 Megahertz (Mhz) this is the bare minimum for this version of Windows</p>
+<form action="/action_page.php">
+  Proccessor speed (in kilobytes):
+  <input type="number" name="quantity"
+   min="1024" max="10240" step="1" value="1024">
+  <input type="submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Hard Disk size</H3>
+<p>(!) Minimum hard disk size is 256 kilobytes. This is the bare minimum required to use this version of Windows</p>
+<p>(!) The maximum hard disk size is 20 Megabytes (20480 kilobytes) for this version of Windows. If you want a bigger drive, create another VM with a different operating system.</p>
+<form action="/action_page.php">
+  Hard Disk (in kilobytes):
+  <input type="number" name="quantity"
+   min="256" max="20480" step="1" value="360">
+  <input type="submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>Screen resolution</H3>
+<p>Select a screen resolution for this virtual machine.</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="256x144">256x144<br>
+  <input type="radio" name="proc" value="256x256">256x256<br>
+  <input type="radio" name="proc" value="360x240">360x240<br>
+  <input type="radio" name="proc" value="360x360">360x360<br>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Aspect ratio</H3>
+<p>Select an aspect ratio for this virtual machine.</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="1:1">1:1<br>
+  <input type="radio" name="proc" value="1:2">1:2<br>
+  <input type="radio" name="proc" value="4:2">4:2<br>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Refresh rate (frames per second)</H3>
+<p>Select a refresh rate for this system</p>
+<form action="/action_page.php">
+  Hertz:
+  <input type="number" name="quantity"
+   min="1" max="60" step="1" value="10">
+  <input type="submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Privacy settings</H3>
+<p>Choose the sharing options for this virtual machine</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="Worldwide">Sharing worldwide<br>
+  <input type="radio" name="proc" value="Unlisted1">Unlisted, only people you give the link to can access<br>
+  <input type="radio" name="proc" value="Unlisted2">Unlisted, won't show up in search results<br>
+  <input type="radio" name="proc" value="PublicInCity">Public only in the city you are in<br>
+  <input type="radio" name="proc" value="PublicCountry">Public only in your country<br>
+  <input type="radio" name="proc" value="Private">Private, only you can see<br>  
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Disk type</H3>
+<p>Select a type of disk</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="HDD">Hard Disk Drive</input>
+  <input type="radio" name="proc" value="SSD">Solid State Drive (unavailable for this OS)</input>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Disk allocation</H3>
+<p>Select a disk type</p>
+<form action="/action_page.php">
+  <input type="radio" name="proc" value="Fix">Fixed (full size is pre-allocated on the physical host volume. This takes up a lot of memory when using multiple snapshots or large disk sizes)</input>
+  <input type="radio" name="proc" value="Dyn">Dynamically allocated (a disk that starts small -- usually at only a few kilobytes -- and expands as additional storage space is needed.)</input>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H3>⚙ Color mode</H3>
+<p>Select a color mode</p>
+<form action="/action_page.php">
+  <input type="radio" name="mo" value="Monochrome">Monochrome</input>
+  <input type="radio" name="gr" value="Greyscale">Greyscale</input>
+  <input type="radio" name="gr" value="16 color">16 color</input>
+  <input type="radio" name="gr" value="256 color">8 bit color (256 colors) [THIS OPTION IS NOT AVAILABLE FOR THIS OPERATING SYSTEM]</input>
+  <input type="radio" name="gr" value="16 bit color">16 bit color (65535 colors) [THIS OPTION IS NOT AVAILABLE FOR THIS OPERATING SYSTEM]</input>
+  <input type="radio" name="gr" value="24 bit color">24 bit color (16,777,216 colors) [THIS OPTION IS NOT AVAILABLE FOR THIS OPERATING SYSTEM]</input>
+  <input type="radio" name="gr" value="32 bit color">32 bit color (4,294,967,296 colors) [THIS OPTION IS NOT AVAILABLE FOR THIS OPERATING SYSTEM]</input>
+  <input type="submit" value="Submit">
+</form>
+<p>Remember, you can change this setting later if needed.</p>
+<!-- divider !-->
+<H2>Ready to start?</H2>
+<button><p><a href="CreateVM_Windows_Windows1.0_Full_FInish.html">Click here!</a></p></button>
+<H1>===============================================================================================================================================================================================</H1>
+<H1>View older versions of this page: </H1>
+<H3>Snapshot 1
+<a href="CreateVM_Windows_Windows1.0_Snapshot1.html">Click here</a>
+<H3>Snapshot 2
+<a href="CreateVM_Windows_Windows1.0_Snapshot2.html">Click here</a>
+<H3>Snapshot 3
+<a href="CreateVM_Windows_Windows1.0_Snapshot3.html">Click here</a>
+<H3>Snapshot 4
+<a href="CreateVM_Windows_Windows1.0_Snapshot4.html">Click here</a>
+<H3>Snapshot 5
+<a href="CreateVM_Windows_Windows1.0_Snapshot5.html">Click here</a>
+<H1>===============================================================================================================================================================================================</H1>
+</HR>
+</BODY>
+</HTML>
+<!-- end of script !--> 
